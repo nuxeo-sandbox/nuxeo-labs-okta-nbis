@@ -1,6 +1,6 @@
 <!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
 <package type="addon" name="nuxeo-labs-okta" version="@VERSION@">
-  <title>Nuxeo labs okta</title>
+  <title>Nuxeo Labs Okta NBIS</title>
   <description>
     <p>Put here an HTML description of your Nuxeo Package.</p>
   </description>
