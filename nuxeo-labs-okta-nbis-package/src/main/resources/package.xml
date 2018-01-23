@@ -1,5 +1,5 @@
 <!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
-<package type="addon" name="nuxeo-labs-okta" version="@VERSION@">
+<package type="addon" name="nuxeo-labs-okta-nbis" version="@VERSION@">
   <title>Nuxeo Labs Okta NBIS</title>
   <description>
     <p>Custom User Resolver for NBIS demo.</p>
