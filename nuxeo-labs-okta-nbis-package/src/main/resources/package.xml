@@ -2,7 +2,7 @@
 <package type="addon" name="nuxeo-labs-okta" version="@VERSION@">
   <title>Nuxeo Labs Okta NBIS</title>
   <description>
-    <p>Put here an HTML description of your Nuxeo Package.</p>
+    <p>Custom User Resolver for NBIS demo.</p>
   </description>
   <!-- <home-page>http://doc.nuxeo.com/</home-page> -->
   <vendor>Nuxeo</vendor>
