@@ -6,7 +6,7 @@
   <target name="build" description="Build Nuxeo Package">
     <property name="outdir" value="${maven.project.build.directory}"/>
     <!-- Include your artifacts in the graph adding your groupId to groupPrefixes -->
-    <artifact:nuxeo-expand includeTestScope="true" groupPrefixes="org.nuxeo,nuxeo.labs.okta"/>
+    <artifact:nuxeo-expand includeTestScope="true" groupPrefixes="org.nuxeo,nuxeo.labs.okta.nbis"/>
     <!-- For Nuxeo IDE being able to use that distribution as a SDK -->
     <artifact:print output="${outdir}/artifacts.properties" mode="sdk"/>
     <artifact:print output="${outdir}/test-artifacts.properties" mode="sdk" scopes="test"/>
@@ -44,7 +44,7 @@
           <artifact groupId="org.nuxeo*"/>
           <artifact groupId="nuxeo-studio"/>
           <!-- Include your artifacts using their groupId for instance -->
-          <artifact groupId="nuxeo.labs.okta*"/>
+          <artifact groupId="nuxeo.labs.okta.nbis*"/>
         </includes>
         <excludes>
           <artifact groupId="${maven.project.groupId}" artifactId="${maven.project.artifactId}"
@@ -69,7 +69,7 @@
           <artifact type="pom"/>
           <artifact groupId="nuxeo-studio"/>
           <!-- Filter out your artifacts using their groupId for instance -->
-          <artifact groupId="nuxeo.labs.okta*"/>
+          <artifact groupId="nuxeo.labs.okta.nbis*"/>
           <artifact artifactId="mongo-java-driver*"/>
         </excludes>
       </artifact:set>

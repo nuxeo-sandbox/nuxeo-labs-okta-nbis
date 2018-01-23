@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>nuxeo.labs.okta</groupId>
+    <groupId>nuxeo.labs.okta.nbis</groupId>
     <artifactId>nuxeo-labs-okta-nbis-parent</artifactId>
     <version>9.10-SNAPSHOT</version>
   </parent>

@@ -1,8 +1,8 @@
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .
 Manifest-Version: 1.0
-Bundle-Vendor: nuxeo.labs.okta.core
+Bundle-Vendor: Nuxeo
 Bundle-Version: 1.0.0
 Bundle-Name: nuxeo-labs-okta-nbis-core
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: nuxeo.labs.okta.core.nuxeo-labs-okta-nbis-core;singleton=true
+Bundle-SymbolicName: nuxeo.labs.okta.nbis.core.nuxeo-labs-okta-nbis-core;singleton=true
