@@ -11,7 +11,7 @@
 
   <groupId>nuxeo.labs.okta</groupId>
   <artifactId>nuxeo-labs-okta-nbis-parent</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>9.10-SNAPSHOT</version>
   <name>Nuxeo labs okta parent</name>
   <description>Parent project for Okta plugin.</description>
   <packaging>pom</packaging>
@@ -88,12 +88,12 @@
       <dependency>
         <groupId>nuxeo.labs.okta</groupId>
         <artifactId>nuxeo-labs-okta-nbis-core</artifactId>
-        <version>1.1-SNAPSHOT</version>
+        <version>9.10-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>nuxeo.labs.okta</groupId>
         <artifactId>nuxeo-labs-okta-nbis-package</artifactId>
-        <version>1.1-SNAPSHOT</version>
+        <version>9.10-SNAPSHOT</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
