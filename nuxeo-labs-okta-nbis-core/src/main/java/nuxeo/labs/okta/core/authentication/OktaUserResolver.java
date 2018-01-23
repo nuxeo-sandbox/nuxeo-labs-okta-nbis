@@ -37,10 +37,12 @@ public class OktaUserResolver extends AbstractUserResolver {
         String username = findNuxeoUser(userInfo);
         if (username == null) {
             DocumentModel userDoc = createNuxeoUser(userInfo);
+            // Todo: If groups contains Investigators, Create Investigator document
             return userDoc.getId();
         } else {
             UserManager userManager = Framework.getService(UserManager.class);
             updateUserInfo(userManager.getUserModel(username), userInfo);
+            // Todo: If groups contains Investigators, Update Investigator document
             return username;
         }
     }
@@ -96,6 +98,9 @@ public class OktaUserResolver extends AbstractUserResolver {
                         break;
                     case "lastName":
                         principal.setLastName(attribute.getAttributeValues().get(0).getDOM().getTextContent());
+                        break;
+                    case "organization":
+                        principal.setCompany(attribute.getAttributeValues().get(0).getDOM().getTextContent());
                         break;
                     case "groups":
                         addToGroups(attribute, principal);
