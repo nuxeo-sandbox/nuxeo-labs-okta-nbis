@@ -5,11 +5,11 @@
 
   <parent>
     <groupId>nuxeo.labs.okta</groupId>
-    <artifactId>nuxeo-labs-okta-parent</artifactId>
+    <artifactId>nuxeo-labs-okta-nbis-parent</artifactId>
     <version>1.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>nuxeo-labs-okta-core</artifactId>
+  <artifactId>nuxeo-labs-okta-nbis-core</artifactId>
   <name>Nuxeo labs okta core</name>
   <description>Plugin for Okta SSO.</description>
 

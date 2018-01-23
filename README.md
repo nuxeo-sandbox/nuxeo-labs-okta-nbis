@@ -2,8 +2,6 @@
 
 This Nuxeo Package contains a custom resolver for Okta to map Okta user profile to Nuxeo profile.
 
-[![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=Sandbox/sandbox_nuxeo-labs-okta-master)](https://qa.nuxeo.org/jenkins/job/Sandbox/job/sandbox_nuxeo-labs-okta-master/)
-
 # Requirements
 
 Build requires the following software:

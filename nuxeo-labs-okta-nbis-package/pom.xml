@@ -4,12 +4,12 @@
 
   <parent>
     <groupId>nuxeo.labs.okta</groupId>
-    <artifactId>nuxeo-labs-okta-parent</artifactId>
+    <artifactId>nuxeo-labs-okta-nbis-parent</artifactId>
     <version>1.1-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>nuxeo-labs-okta-package</artifactId>
+  <artifactId>nuxeo-labs-okta-nbis-package</artifactId>
   <packaging>zip</packaging>
   <name>Nuxeo labs okta</name>
 
@@ -31,7 +31,7 @@
     <!-- Additional bundles to be deployed by the MP -->
     <dependency>
       <groupId>nuxeo.labs.okta</groupId>
-      <artifactId>nuxeo-labs-okta-core</artifactId>
+      <artifactId>nuxeo-labs-okta-nbis-core</artifactId>
     </dependency>
   </dependencies>
 
