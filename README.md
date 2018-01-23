@@ -2,6 +2,8 @@
 
 This Nuxeo Package contains a custom resolver for Okta to map Okta user profile to Nuxeo profile.
 
+This is a fork of nuxeo-sanbox/nuxeo-labs-okta with customizations for a specific demo.
+
 # Requirements
 
 Build requires the following software:
@@ -15,6 +17,8 @@ The mapping is "fixed"; it assumes the only fields that will be used from Okta a
 * email (also used for the user ID)
 * firstName
 * lastName
+* organization
+* zipCode
 * groups
 
 # Build
