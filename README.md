@@ -24,8 +24,8 @@ The mapping is "fixed"; it assumes the only fields that will be used from Okta a
 # Build
 
 ```
-git clone https://github.com/nuxeo-sandbox/nuxeo-labs-okta
-cd nuxeo-labs-okta
+git clone https://github.com/nuxeo-sandbox/nuxeo-labs-okta-nbis
+cd nuxeo-labs-okta-nbis
 mvn clean install
 # or 
 mvn clean install -DskipTests
