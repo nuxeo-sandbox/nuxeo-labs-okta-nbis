@@ -11,7 +11,7 @@
 
   <artifactId>nuxeo-labs-okta-nbis-package</artifactId>
   <packaging>zip</packaging>
-  <name>Nuxeo labs okta</name>
+  <name>Nuxeo Labs Okta NBIS</name>
 
   <dependencies>
     <!-- Base distribution(s) for the MP -->

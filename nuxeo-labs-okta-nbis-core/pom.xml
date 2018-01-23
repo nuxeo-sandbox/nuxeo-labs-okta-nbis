@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>nuxeo-labs-okta-nbis-core</artifactId>
-  <name>Nuxeo labs okta core</name>
+  <name>Nuxeo Labs Okta NBIS core</name>
   <description>Plugin for Okta SSO.</description>
 
   <dependencies>

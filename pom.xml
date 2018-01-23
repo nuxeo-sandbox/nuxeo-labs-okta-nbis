@@ -12,7 +12,7 @@
   <groupId>nuxeo.labs.okta</groupId>
   <artifactId>nuxeo-labs-okta-nbis-parent</artifactId>
   <version>9.10-SNAPSHOT</version>
-  <name>Nuxeo labs okta parent</name>
+  <name>Nuxeo Labs Okta NBIS parent</name>
   <description>Parent project for Okta plugin.</description>
   <packaging>pom</packaging>
 
